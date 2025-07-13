@@ -1,0 +1,38 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>InstantBoard</title>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">InstantBoard</h1>
+
+    <!-- Code Entry -->
+    <div class="form-group">
+      <label for="code">Enter Your Code</label>
+      <input type="text" id="code" placeholder="e.g., MATH101">
+    </div>
+
+    <!-- Upload Section -->
+    <div class="form-group">
+      <label for="file">Upload File</label>
+      <input type="file" id="file">
+    </div>
+
+    <button id="uploadBtn">Upload</button>
+
+    <!-- File List -->
+    <div class="file-list-section">
+      <h2>Uploaded Files</h2>
+      <ul id="file-list"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
